@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube.cpp.o CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.o -o KorfsRubiksCubeSolver

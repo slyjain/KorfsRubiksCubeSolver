@@ -632,7 +632,7 @@ public:
         return *this;
     };
     RubiksCube& L() override {
-        cout << "Rotating Front face clockwise" << std::endl;
+        cout << "Rotating Left face clockwise" << std::endl;
         int temp[3]{};
         rotateFace(FACE::LEFT);
 

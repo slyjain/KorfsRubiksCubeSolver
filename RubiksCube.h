@@ -5,7 +5,8 @@
 #ifndef RUBIKSCUBE_H
 #define RUBIKSCUBE_H
 
-
+#include<bits/stdc++.h>
+using namespace std;
 
 class RubiksCube {
 public:
@@ -38,7 +39,9 @@ public:
     void printColor(char c);
     void print();
     RubiksCube& move(MOVE move);
+    RubiksCube& invert(MOVE move);
     vector<MOVE> randomShuffle(int times);
+    bool isSolved(RubiksCube& c);
     virtual RubiksCube& U() = 0;       // Up clockwise
     virtual RubiksCube& UPRIME() = 0;   // Up counterclockwise
     virtual RubiksCube& U2() = 0;       // Up 180 degrees
@@ -67,4 +70,4 @@ public:
 
 
 
-#endif //RUBIKSCUBE_H
+#endif RUBIKSCUBE_H

@@ -29,7 +29,7 @@ int main() {
     // a.print();
     // a.D();
     // a.print();
-    // a.B();
+      // a.B();
     // a.print();
     // a.BPRIME();
     // a.print();
@@ -39,17 +39,27 @@ int main() {
     // a.print();
     // a.RPRIME();
     // a.print();
-    a.L();
+    // a.L();
+    // a.print();
+    // a.L();
+    // a.print();
+    // a.L();
+    // a.print();
+    // a.L();
+    // a.print();
+    // a.L2();
+    // a.print();
+    // a.L2();
+    // a.print();
+    vector<RubiksCube::MOVE>moves_made=a.randomShuffle(5);
     a.print();
-    a.L();
+    cout<<"Is this Rubiks Cube solved: "<<a.isSolved(a)<<"\n";
+    for(auto it=moves_made.rbegin();it!=moves_made.rend();it++){
+      a.invert(*it);
+      // cout<<static_cast<int>(*it)<<"\n";
+    }
     a.print();
-    a.L();
-    a.print();
-    a.L();
-    a.print();
-    a.L2();
-    a.print();
-    a.L2();
-    a.print();
+    cout<<"Is this Rubiks Cube solved: "<<a.isSolved(a)<<"\n";
+    
     return 0;
 }
