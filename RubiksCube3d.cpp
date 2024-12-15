@@ -20,6 +20,20 @@ class RubiksCube3d :public RubiksCube{
             }
         }
     }
+    void rotateFace(int f) {
+        int temp[3][3]{};
+        int fR = f;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                temp[i][j] = cube[fR][i][j];
+            }
+        }
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                cube[fR][j][2 - i] = temp[i][j];
+            }
+        }
+    }
 public:
     RubiksCube3d() {
         for(int i=0;i<6;i++) {
@@ -750,9 +764,4 @@ public:
         }
         return *this;
     };
-
-
-
-
-
 };

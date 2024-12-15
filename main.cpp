@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 #include "RubiksCube.h"
 #include "RubiksCube3d.cpp"
+#include "RubiksCube1D.cpp"
 using namespace std;
 
 int main() {
-    RubiksCube3d a;
+    RubiksCube1D a;
     a.print();
     // a.F();
     // a.print();
@@ -51,13 +52,15 @@ int main() {
     // a.print();
     // a.L2();
     // a.print();
-    vector<RubiksCube::MOVE>moves_made=a.randomShuffle(5);
+    // vector<RubiksCube::MOVE>moves_made=a.randomShuffle(5);
+    a.U();
     a.print();
     cout<<"Is this Rubiks Cube solved: "<<a.isSolved(a)<<"\n";
-    for(auto it=moves_made.rbegin();it!=moves_made.rend();it++){
-      a.invert(*it);
-      // cout<<static_cast<int>(*it)<<"\n";
-    }
+    // for(auto it=moves_made.rbegin();it!=moves_made.rend();it++){
+    //   a.invert(*it);
+    //   // cout<<static_cast<int>(*it)<<"\n";
+    // }
+    a.BPRIME();
     a.print();
     cout<<"Is this Rubiks Cube solved: "<<a.isSolved(a)<<"\n";
     

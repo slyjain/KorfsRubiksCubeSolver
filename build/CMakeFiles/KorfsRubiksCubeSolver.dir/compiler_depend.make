@@ -925,6 +925,7 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.o: /home/heisenberg/CLionP
 
 CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/main.cpp \
   /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h \
+  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
   /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1473,6 +1474,8 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: /home/heisenberg/CLionProjects/
 /usr/include/c++/14.2.1/syncstream:
 
 /usr/include/c++/14.2.1/string_view:
+
+/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp:
 
 /usr/include/pthread.h:
 
