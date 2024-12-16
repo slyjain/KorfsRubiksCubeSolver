@@ -339,4 +339,5 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/latch /usr/include/c++/14.2.1/syncstream \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp

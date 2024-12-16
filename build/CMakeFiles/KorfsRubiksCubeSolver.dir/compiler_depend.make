@@ -927,6 +927,7 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: /home/heisenberg/CLionProjects/
   /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h \
   /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
   /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp \
+  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1386,6 +1387,8 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: /home/heisenberg/CLionProjects/
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h
 
+
+/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp:
 
 /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp:
 

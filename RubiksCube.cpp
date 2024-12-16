@@ -66,6 +66,7 @@ void RubiksCube::print() {
         }
         cout<<"\n";
     }
+    cout<<"---------------------------------------\n";
 }
 RubiksCube &RubiksCube::move(MOVE ind) {
     switch (ind) {

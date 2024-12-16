@@ -930,6 +930,7 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
