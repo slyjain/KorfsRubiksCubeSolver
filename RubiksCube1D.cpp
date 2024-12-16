@@ -1,7 +1,7 @@
 #include"RubiksCube.h"
 
 class RubiksCube1D: public RubiksCube{
-    char cube[54]{};
+    
     int C_3D_to_1D(int face,int row,int col)const{
         return face*9+row*3+col;
     }
@@ -20,6 +20,7 @@ class RubiksCube1D: public RubiksCube{
         }
     }
     public:
+    char cube[54]{};
     RubiksCube1D(){
         for(int i=0;i<6;i++){
             for(int j=0;j<3;j++){
@@ -802,4 +803,11 @@ RubiksCube& LPRIME() override {
     return *this;
 }
 
+};
+struct Hash1D{
+    size_t operator()(const RubiksCube1D&r1) const{
+        string str="";
+        for(int i=0;i<54;i++)str+=r1.cube[i];
+        return hash<string>()(str);
+    }
 };

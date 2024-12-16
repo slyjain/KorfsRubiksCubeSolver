@@ -265,3 +265,10 @@ public:
         return *this;
     }
 };
+struct HashBitBoard{
+    size_t operator()(const RubiksCubeBitBoard& r1)const{
+        ll ans=0;
+        for(int i=0;i<6;i++)ans^=r1.cube[i];
+        return size_t(ans); 
+    }
+};

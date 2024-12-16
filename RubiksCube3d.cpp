@@ -5,7 +5,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 class RubiksCube3d :public RubiksCube{
-    char cube[6][3][3]{};
+    
     void rotateFace(FACE f) {
         int temp[3][3]{};
         int fR = static_cast<int>(f);
@@ -34,7 +34,7 @@ class RubiksCube3d :public RubiksCube{
             }
         }
     }
-public:
+public:char cube[6][3][3]{};
     RubiksCube3d() {
         for(int i=0;i<6;i++) {
             for(int j=0;j<3;j++) {
@@ -764,4 +764,17 @@ public:
         }
         return *this;
     };
+};
+struct Hash3D{
+    size_t operator()(const RubiksCube3d& r1)const{
+        string str="";
+        for(int i=0;i<6;i++){
+            for(int j=0;j<3;j++){
+                for(int k=0;k<3;k++){
+                    str+=r1.cube[i][j][k];
+                }
+                }
+        }
+        return hash<string>()(str);
+    }
 };
