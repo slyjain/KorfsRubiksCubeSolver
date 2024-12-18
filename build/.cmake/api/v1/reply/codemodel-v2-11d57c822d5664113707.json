@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "KorfsRubiksCubeSolver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-KorfsRubiksCubeSolver-Debug-50ce0313a93334414b16.json",
+					"jsonFile" : "target-KorfsRubiksCubeSolver-Debug-f9041957b1c64769c51a.json",
 					"name" : "KorfsRubiksCubeSolver",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/cmake-build-debug",
+		"build" : "/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build",
 		"source" : "/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver"
 	},
 	"version" : 

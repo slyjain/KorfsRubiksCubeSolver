@@ -264,11 +264,32 @@ public:
 
         return *this;
     }
+    bool operator==(const RubiksCubeBitBoard &r1) const
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            if (cube[i] != r1.cube[i])
+                return false;
+        }
+        return true;
+    }
+
+    RubiksCubeBitBoard &operator=(const RubiksCubeBitBoard &r1)
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            cube[i] = r1.cube[i];
+        }
+        return *this;
+    }
 };
-struct HashBitBoard{
-    size_t operator()(const RubiksCubeBitBoard& r1)const{
-        ll ans=0;
-        for(int i=0;i<6;i++)ans^=r1.cube[i];
-        return size_t(ans); 
+struct HashBitBoard
+{
+    size_t operator()(const RubiksCubeBitBoard &r1) const
+    {
+        ll ans = 0;
+        for (int i = 0; i < 6; i++)
+            ans ^= r1.cube[i];
+        return size_t(ans);
     }
 };

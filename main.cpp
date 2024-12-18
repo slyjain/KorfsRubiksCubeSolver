@@ -3,26 +3,40 @@
 #include "RubiksCube3d.cpp"
 #include "RubiksCube1D.cpp"
 #include "RubiksCubeBitBoard.cpp"
-
+#include "./Solver/DFS.h"
 using namespace std;
 
 int main()
 {
   RubiksCubeBitBoard a;
-  a.print();
+  // a.print();
+  // a.F();
+  // a.print();
+  // a.FPRIME();
+  // a.print();
+  // a.F2();
+  // a.print();
+  // a.D();
+  // a.print();
+  // a.randomShuffle(4);
   a.F();
-  a.print();
-  a.FPRIME();
-  a.print();
-  a.F2();
-  a.print();
+  a.B();
+  a.U();
   a.D();
+  a.R();
+  a.L();
   a.print();
-  a.UPRIME();
+  DFS<RubiksCubeBitBoard,HashBitBoard> d(a,6);
+  vector<RubiksCube::MOVE>mv=d.solve();
+  for(auto m:mv){
+    a.move(m);
+  }
   a.print();
+  // a.UPRIME();
+  // a.print();
   // a.U2();
-  a.U2();
-  a.print();
+  // a.U2();
+  // a.print();
   // a.D();
   // a.print();
   // a.D();

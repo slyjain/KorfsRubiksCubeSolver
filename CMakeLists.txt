@@ -7,4 +7,8 @@ add_executable(KorfsRubiksCubeSolver main.cpp
         RubiksCube.cpp
         RubiksCube.h
         RubiksCube3d.cpp
+        
+        Solver/DFS.h
+        Solver/BFS.h
+        Solver/IDDFS.h
 )

@@ -1,6 +1,7 @@
-CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/main.cpp \
+CMakeFiles/KorfsRubiksCubeSolver.dir/Solver/DFS.cpp.o: \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/Solver/DFS.cpp \
  /usr/include/stdc-predef.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/Solver/DFS.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/stdc++.h \
  /usr/include/c++/14.2.1/cassert \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -337,9 +338,4 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/fs_ops.h \
  /usr/include/c++/14.2.1/memory_resource /usr/include/c++/14.2.1/barrier \
  /usr/include/c++/14.2.1/latch /usr/include/c++/14.2.1/syncstream \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DFS.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../RubiksCube.h
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/Solver/../RubiksCube.h
