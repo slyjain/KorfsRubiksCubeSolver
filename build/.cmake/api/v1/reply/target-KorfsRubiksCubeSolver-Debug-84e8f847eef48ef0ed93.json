@@ -95,7 +95,8 @@
 			[
 				2,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -132,6 +133,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Solver/BFS.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Solver/IDDFS.h",
 			"sourceGroupIndex" : 1
 		}
 	],

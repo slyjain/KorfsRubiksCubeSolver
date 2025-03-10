@@ -342,4 +342,6 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DFS.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../RubiksCube.h
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../RubiksCube.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/IDDFS.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DFS.h

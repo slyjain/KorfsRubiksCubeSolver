@@ -1,40 +1,55 @@
 //
-// Created by heisenberg on 12/16/24.
+// Created by Heisenberg.
 //
+
 #include<bits/stdc++.h>
 #include "../RubiksCube.h"
-#ifndef DFS_H
-#define DFS_H
 
+#ifndef RUBIKS_CUBE_SOLVER_DFSSOLVER_H
+#define RUBIKS_CUBE_SOLVER_DFSSOLVER_H
 
-template<typename T,typename H>
-class DFS {
-    vector<RubiksCube::MOVE>moves;
-    int maxSearchDepth;
-    bool dfs(int depth) {
-        if(rubiksCube.isSolved(rubiksCube))return true;
-        if(depth>maxSearchDepth)return false;   
-        for(int i=0;i<18;i++) {
+// Typename T: RubiksCube Representation used (3d, 1d, Bitboard)
+// Typename H: Corresponding Hash function
+
+template<typename T, typename H>
+class DFSSolver {
+private:
+
+    vector<RubiksCube::MOVE> moves;
+    int max_search_depth;
+
+//    DFS code to find the solution (helper function)
+    bool dfs(int dep) {
+        if (rubiksCube.isSolved()) return true;
+        if (dep > max_search_depth) return false;
+        for (int i = 0; i < 18; i++) {
             rubiksCube.move(RubiksCube::MOVE(i));
             moves.push_back(RubiksCube::MOVE(i));
-            if(dfs(depth+1))return true;
+            if (dfs(dep + 1)) return true;
             moves.pop_back();
             rubiksCube.invert(RubiksCube::MOVE(i));
         }
         return false;
     }
+
 public:
     T rubiksCube;
-    DFS(T rubiksCube_,int maxSearchDepth_=8) {
-        rubiksCube=rubiksCube_;
-        maxSearchDepth=maxSearchDepth_;
+
+    DFSSolver(T _rubiksCube, int _max_search_depth = 8) {
+        rubiksCube = _rubiksCube;
+        max_search_depth = _max_search_depth;
     }
-    vector<RubiksCube::MOVE>solve() {
-        dfs(1);
+
+    vector<RubiksCube::MOVE> solve() {
+        if(dfs(1)){
+            cout<<"Solution Found:\n";
+        }else{
+            cout<<"NO Solution found\n";
+        }
         return moves;
     }
+
 };
 
 
-
-#endif //DFS_H
+#endif //RUBIKS_CUBE_SOLVER_DFSSOLVER_H

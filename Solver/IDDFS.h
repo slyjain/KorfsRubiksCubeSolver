@@ -19,9 +19,9 @@ public:
     }
     vector<RubiksCube::MOVE> solve() {
         for(int i=1;i<=max_search_depth;i++) {
-            DFS<T,H> d(rubikscube,i);
+            DFSSolver<T,H> d(rubikscube,i);
             moves=d.solve();
-            if(d.isSolved(d.rubiksCube)) {
+            if(d.rubiksCube.isSolved()) {
                 rubikscube=d.rubiksCube;
                 break;
             }

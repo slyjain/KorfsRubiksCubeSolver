@@ -1,13 +1,7 @@
-//
-// Created by heisenberg on 12/13/24.
-//
-
 #ifndef RUBIKSCUBE_H
 #define RUBIKSCUBE_H
-
 #include <bits/stdc++.h>
 using namespace std;
-
 class RubiksCube
 {
 public:
@@ -20,7 +14,7 @@ public:
         BACK,
         DOWN
     };
-    enum class COLOR
+     enum class COLOR
     {
         WHITE,
         GREEN,
@@ -50,14 +44,26 @@ public:
         D2,
         DPRIME
     };
+    //1.unsigned is used here because row and col must be positive
+    //2.const is used here because the function should not by any 
+    //circumstance modify the object it is called upon
     virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
-    char getColorLetter(COLOR color);
+    //these can be implemented in abstract class only because 
+    //it is independent from models
+    char getColorLetter(COLOR color)const;
     void printColor(char c);
     void print();
+    virtual bool isSolved()const=0;
+    string getMoveLetter(MOVE m);
+    //to implement moves
     RubiksCube &move(MOVE move);
+    //to invert the implemented moves
     RubiksCube &invert(MOVE move);
+    //to randomly shuffle the cube and give the moves performed
     vector<MOVE> randomShuffle(int times);
+    //To see if the cube is solved or not
     bool isSolved(RubiksCube &c);
+    // 18 fundamental moves
     virtual RubiksCube &U() = 0;      // Up clockwise
     virtual RubiksCube &UPRIME() = 0; // Up counterclockwise
     virtual RubiksCube &U2() = 0;     // Up 180 degrees
@@ -82,5 +88,4 @@ public:
     virtual RubiksCube &BPRIME() = 0; // Back counterclockwise
     virtual RubiksCube &B2() = 0;     // Back 180 degrees
 };
-
 #endif RUBIKSCUBE_H

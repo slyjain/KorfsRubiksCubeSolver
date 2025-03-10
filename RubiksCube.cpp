@@ -1,10 +1,7 @@
-//
-// Created by heisenberg on 12/13/24.
-//
 #include <bits/stdc++.h>
 using namespace std;
 #include "RubiksCube.h"
-char RubiksCube::getColorLetter(COLOR color)
+char RubiksCube::getColorLetter(COLOR color)const
 {
     switch (color)
     {
@@ -24,6 +21,52 @@ char RubiksCube::getColorLetter(COLOR color)
         return '?';
     }
 }
+std::string RubiksCube::getMoveLetter(MOVE m)
+{
+    // cout << "Here" << " ";
+    switch (m)
+    {
+    case MOVE::F: // Front face clockwise
+        return "F";
+    case MOVE::FPRIME: // Front face counterclockwise
+        return "FPRIME";
+    case MOVE::F2: // Front face 180 degrees
+        return "F2";
+    case MOVE::U: // Up face clockwise
+        return "U";
+    case MOVE::UPRIME: // Up face counterclockwise
+        return "UPRIME";
+    case MOVE::U2: // Up face 180 degrees
+        return "U2";
+    case MOVE::D: // Down face clockwise
+        return "D";
+    case MOVE::DPRIME: // Down face counterclockwise
+        return "DPRIME";
+    case MOVE::D2: // Down face 180 degrees
+        return "D2";
+    case MOVE::R: // Right face clockwise
+        return "R";
+    case MOVE::RPRIME: // Right face counterclockwise
+        return "RPRIME";
+    case MOVE::R2: // Right face 180 degrees
+        return "R2";
+    case MOVE::L: // Left face clockwise
+        return "L";
+    case MOVE::LPRIME: // Left face counterclockwise
+        return "LPRIME";
+    case MOVE::L2: // Left face 180 degrees
+        return "L2";
+    case MOVE::B: // Back face clockwise
+        return "B";
+    case MOVE::BPRIME: // Back face counterclockwise
+        return "BPRIME";
+    case MOVE::B2: // Back face 180 degrees
+        return "B2";
+    default:
+        return "?";
+    }
+}
+
 void RubiksCube::printColor(char color)
 {
     switch (color)
@@ -138,6 +181,7 @@ RubiksCube &RubiksCube::move(MOVE ind)
         return this->DPRIME();
     }
 }
+
 RubiksCube &RubiksCube::invert(MOVE ind)
 {
     switch (ind)
@@ -180,7 +224,7 @@ RubiksCube &RubiksCube::invert(MOVE ind)
         return this->D();
     }
 }
-
+// static cast is used to convert from number to move or move to number
 vector<RubiksCube::MOVE> RubiksCube::randomShuffle(int times)
 {
     srand(time(0));
@@ -190,25 +234,7 @@ vector<RubiksCube::MOVE> RubiksCube::randomShuffle(int times)
         int num = rand() % 18;
         moves_made.push_back(static_cast<MOVE>(num));
         this->move(static_cast<MOVE>(num));
+        this->print();
     }
     return moves_made;
-}
-bool RubiksCube::isSolved(RubiksCube &c)
-{
-    for (int i = 0; i < 6; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            for (int k = 0; k < 3; k++)
-            {
-                if (getColorLetter(c.getColor(FACE(i), j, k)) == getColorLetter(COLOR(i)))
-                    continue;
-                else
-                {
-                    return false;
-                }
-            }
-        }
-    }
-    return true;
 }
