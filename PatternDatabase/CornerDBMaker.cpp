@@ -20,7 +20,7 @@ bool CornerDBMaker::bfsAndStore() {
     while (!q.empty()) {
         int n = q.size();
         curr_depth++;
-        if (curr_depth == 3) break;
+        if (curr_depth == 7) break;
         for (int counter = 0; counter < n; counter++) {
             RubiksCubeBitBoard node = q.front();
             q.pop();
