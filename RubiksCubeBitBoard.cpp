@@ -64,12 +64,14 @@ public:
         int coloring = ((temp >> (8 * idx)) & ones8);
         return COLOR(mp.at(coloring));
     }
-    // bool isSolved(){
-    //     for(int i=0;i<6;i++){
-    //         if(cube[i]!=solver_side_config[i])return false;
-    //     }
-    //     return true;
-    // };
+     bool isSolved() const override {
+        for (int i = 0; i < 6; i++) {
+            if (cube[i] != solver_side_config[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     RubiksCube &U() override
     {

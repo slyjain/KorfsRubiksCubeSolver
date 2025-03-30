@@ -87,5 +87,10 @@ public:
     virtual RubiksCube &B() = 0;      // Back clockwise
     virtual RubiksCube &BPRIME() = 0; // Back counterclockwise
     virtual RubiksCube &B2() = 0;     // Back 180 degrees
+    string getCornerColorString(uint8_t ind) const;
+
+    uint8_t getCornerIndex(uint8_t ind) const;
+
+    uint8_t getCornerOrientation(uint8_t ind) const;
 };
-#endif RUBIKSCUBE_H
+#endif// RUBIKSCUBE_H

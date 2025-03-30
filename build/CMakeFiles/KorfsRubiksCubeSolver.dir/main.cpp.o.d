@@ -337,11 +337,18 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/fs_ops.h \
  /usr/include/c++/14.2.1/memory_resource /usr/include/c++/14.2.1/barrier \
  /usr/include/c++/14.2.1/latch /usr/include/c++/14.2.1/syncstream \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube1D.cpp \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCubeBitBoard.cpp \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/IDAstarSolver.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/IDDFS.h \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DFS.h \
  /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../RubiksCube.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/IDDFS.h \
- /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DFS.h
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/DummyHeuristic.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/CornerPatternDatabase.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/../RubiksCube.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/PatternDatabase.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/NibbleArray.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/PermutationIndexer.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/./Solver/../PatternDatabase/math.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerDBMaker.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerPatternDatabase.h \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/../RubiksCubeBitBoard.cpp \
+ /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/../RubiksCube.h

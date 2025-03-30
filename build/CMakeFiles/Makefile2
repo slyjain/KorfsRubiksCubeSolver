@@ -81,12 +81,12 @@ clean: CMakeFiles/KorfsRubiksCubeSolver.dir/clean
 CMakeFiles/KorfsRubiksCubeSolver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KorfsRubiksCubeSolver.dir/build.make CMakeFiles/KorfsRubiksCubeSolver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KorfsRubiksCubeSolver.dir/build.make CMakeFiles/KorfsRubiksCubeSolver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=1,2,3,4 "Built target KorfsRubiksCubeSolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target KorfsRubiksCubeSolver"
 .PHONY : CMakeFiles/KorfsRubiksCubeSolver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/KorfsRubiksCubeSolver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/KorfsRubiksCubeSolver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles 0
 .PHONY : CMakeFiles/KorfsRubiksCubeSolver.dir/rule

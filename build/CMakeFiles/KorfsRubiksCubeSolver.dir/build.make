@@ -111,11 +111,86 @@ CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/RubiksCube3d.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.s
 
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/flags.make
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/PatternDatabase.cpp
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o -MF CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o.d -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o -c /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/PatternDatabase.cpp
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/PatternDatabase.cpp > CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.i
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/PatternDatabase.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.s
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/flags.make
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/NibbleArray.cpp
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o -MF CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o.d -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o -c /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/NibbleArray.cpp
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/NibbleArray.cpp > CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.i
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/NibbleArray.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.s
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/flags.make
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerPatternDatabase.cpp
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o -MF CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o.d -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o -c /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerPatternDatabase.cpp
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerPatternDatabase.cpp > CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.i
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerPatternDatabase.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.s
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/flags.make
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerDBMaker.cpp
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o -MF CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o.d -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o -c /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerDBMaker.cpp
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerDBMaker.cpp > CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.i
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/CornerDBMaker.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.s
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/flags.make
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o: /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/math.cpp
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o: CMakeFiles/KorfsRubiksCubeSolver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o -MF CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o.d -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o -c /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/math.cpp
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/math.cpp > CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.i
+
+CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/PatternDatabase/math.cpp -o CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.s
+
 # Object files for target KorfsRubiksCubeSolver
 KorfsRubiksCubeSolver_OBJECTS = \
 "CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o" \
 "CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube.cpp.o" \
-"CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.o"
+"CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.o" \
+"CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o" \
+"CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o" \
+"CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o" \
+"CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o" \
+"CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o"
 
 # External object files for target KorfsRubiksCubeSolver
 KorfsRubiksCubeSolver_EXTERNAL_OBJECTS =
@@ -123,9 +198,14 @@ KorfsRubiksCubeSolver_EXTERNAL_OBJECTS =
 KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/main.cpp.o
 KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube.cpp.o
 KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/RubiksCube3d.cpp.o
+KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/PatternDatabase.cpp.o
+KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/NibbleArray.cpp.o
+KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerPatternDatabase.cpp.o
+KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/CornerDBMaker.cpp.o
+KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/PatternDatabase/math.cpp.o
 KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/build.make
 KorfsRubiksCubeSolver: CMakeFiles/KorfsRubiksCubeSolver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable KorfsRubiksCubeSolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/heisenberg/CLionProjects/KorfsRubiksCubeSolver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable KorfsRubiksCubeSolver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KorfsRubiksCubeSolver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
